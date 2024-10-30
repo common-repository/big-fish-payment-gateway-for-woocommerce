@@ -1,0 +1,928 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BIG FISH Payment Gateway for WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-27 14:41+0000\n"
+"PO-Revision-Date: 2022-03-11 06:36+0000\n"
+"Last-Translator: bfadmin <krisztian.viderspan@bigfish.hu>\n"
+"Language-Team: German\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.1; wp-5.5.1"
+
+#. Name of the plugin
+msgid "BIG FISH Payment Gateway for WooCommerce"
+msgstr "BIG FISH Payment Gateway für WooCommerce"
+
+#. URI of the plugin
+msgid "https://www.paymentgateway.hu"
+msgstr "https://www.paymentgateway.hu"
+
+#. Description of the plugin
+msgid ""
+"BIG FISH Payment Gateway system provides more different payment solutions "
+"for webshops, where all the payment methods of the webshop can be managed in "
+"one place."
+msgstr ""
+"BIG FISH Payment Gateway ist eine Dienstleistung, mit der Sie verschiedene "
+"elektronische Zahlungslösungen in Ihrem Webshop anbieten können."
+
+#. Author of the plugin
+msgid "BIG FISH Internet-technológiai Ltd."
+msgstr "BIG FISH Internet-technológiai Kft."
+
+#. Author URI of the plugin
+msgid "http://bigfish.hu"
+msgstr "http://bigfish.hu"
+
+#: ../big_fish_payment_gateway.php:132
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: ../big_fish_payment_gateway.php:136
+msgid "Store name"
+msgstr "Name des Shops"
+
+#: ../big_fish_payment_gateway.php:142
+msgid "API key"
+msgstr "API-Schlüssel"
+
+#: ../big_fish_payment_gateway.php:148
+msgid "Test mode"
+msgstr "Testmodus"
+
+#: ../big_fish_payment_gateway.php:151 ../classes/providers/paypal.php:76 ..
+#: classes/providers/mkbszep.php:72
+msgid "Yes"
+msgstr "Ja"
+
+#: ../big_fish_payment_gateway.php:152 ../classes/providers/saferpay.php:66 ..
+#: classes/providers/paypal.php:75 ../classes/providers/borgun2.php:66 ..
+#: classes/providers/mkbszep.php:71
+msgid "No"
+msgstr "Nein"
+
+#: ../big_fish_payment_gateway.php:157
+msgid "Available providers"
+msgstr "Zugängliche Dienstleister"
+
+#: ../big_fish_payment_gateway.php:160
+msgid "Barion Smart Gateway"
+msgstr "Barion Smart Gateway"
+
+#: ../big_fish_payment_gateway.php:161
+msgid "Borgun SecurePay"
+msgstr "Borgun SecurePay"
+
+#: ../big_fish_payment_gateway.php:162
+msgid "Borgun RPG"
+msgstr "Borgun RPG"
+
+msgid "MBH online trade loan"
+msgstr "MBH Online Handelskredit"
+
+#: ../big_fish_payment_gateway.php:163
+msgid "CIB Bank"
+msgstr "CIB Bank"
+
+#: ../big_fish_payment_gateway.php:164
+msgid "Escalion"
+msgstr "Escalion"
+
+#: ../big_fish_payment_gateway.php:165
+msgid "FHB Bank"
+msgstr "FHB Bank"
+
+#: ../big_fish_payment_gateway.php:166
+msgid "Intelligent Payments"
+msgstr "Intelligent Payments"
+
+#: ../big_fish_payment_gateway.php:167
+msgid "K&H Bank"
+msgstr "K&H Bank"
+
+#: ../big_fish_payment_gateway.php:168
+msgid "K&H SZÉP Card"
+msgstr "K&H SZÉP karte"
+
+#: ../big_fish_payment_gateway.php:169
+msgid "MBH SZÉP Card"
+msgstr "MBH SZÉP karte"
+
+#: ../big_fish_payment_gateway.php:170
+msgid "OTP Bank"
+msgstr "OTP Bank"
+
+#: ../big_fish_payment_gateway.php:171
+msgid "OTP Bank (two participants)"
+msgstr "OTP Bank (zwei teilnehmer)"
+
+#: ../big_fish_payment_gateway.php:172
+msgid "OTP Multipont"
+msgstr "OTP Multipont"
+
+#: ../big_fish_payment_gateway.php:173
+msgid "OTP SZÉP Card"
+msgstr "OTP SZÉP karte"
+
+#: ../big_fish_payment_gateway.php:174
+msgid "OTPay"
+msgstr "OTPay"
+
+#: ../big_fish_payment_gateway.php:175
+msgid "OTPay MasterPass"
+msgstr "OTPay MasterPass"
+
+#: ../big_fish_payment_gateway.php:176 ../classes/providers/qpay.php:66
+msgid "PayPal"
+msgstr "PayPal"
+
+#: ../big_fish_payment_gateway.php:177 ../classes/providers/qpay.php:69
+msgid "paysafecard"
+msgstr "paysafecard"
+
+#: ../big_fish_payment_gateway.php:178
+msgid "PayU (Classic)"
+msgstr "PayU (Classic)"
+
+#: ../big_fish_payment_gateway.php:179
+msgid "Worldline"
+msgstr "Worldline"
+
+#: ../big_fish_payment_gateway.php:180
+msgid "SimplePay"
+msgstr "SimplePay"
+
+#: ../big_fish_payment_gateway.php:181
+msgid "SimplePay Wire"
+msgstr "SimplePay Wire"
+
+#: ../big_fish_payment_gateway.php:182
+msgid "SMS"
+msgstr "SMS"
+
+#: ../big_fish_payment_gateway.php:183
+msgid "Sofort Banking"
+msgstr "Sofort Banking"
+
+#: ../big_fish_payment_gateway.php:184
+msgid "UniCredit Bank"
+msgstr "UniCredit Bank"
+
+#: ../big_fish_payment_gateway.php:185
+msgid "Wirecard QPAY"
+msgstr "Wirecard QPAY"
+
+#: ../big_fish_payment_gateway.php:282
+msgid "No transaction ID!"
+msgstr "Transaktions-ID fehlt!"
+
+#: ../big_fish_payment_gateway.php:311 ../big_fish_payment_gateway.php:379 ..
+#: big_fish_payment_gateway.php:771
+msgid "Provider transaction ID"
+msgstr "Transaktions-ID Dienstleister"
+
+#: ../big_fish_payment_gateway.php:314
+msgid "Authorization number"
+msgstr "Genehmigungsnummer"
+
+#: ../big_fish_payment_gateway.php:322
+msgid "Recurring payment period"
+msgstr "Periode wiederkehrender Zahlungen"
+
+#: ../big_fish_payment_gateway.php:479 ../big_fish_payment_gateway.php:481
+msgid "Transaction closed"
+msgstr "Transaktion schließen"
+
+#: ../big_fish_payment_gateway.php:479 ../big_fish_payment_gateway.php:776
+msgid "SUCCESSFUL"
+msgstr "ERFOLGREICH"
+
+#: ../big_fish_payment_gateway.php:481 ../big_fish_payment_gateway.php:779
+msgid "FAILED"
+msgstr "ERFOLGLOS"
+
+#: ../big_fish_payment_gateway.php:618
+msgid "Recurring payment"
+msgstr "Wiederkehrende Zahlungen"
+
+#: ../big_fish_payment_gateway.php:668
+msgid "Database insert error!"
+msgstr "Fehler in der Datenbank!"
+
+#: ../big_fish_payment_gateway.php:776 ../big_fish_payment_gateway.php:779
+msgid "Refund"
+msgstr "Erstattung"
+
+#: ../classes/providers/mpp2.php:28 ../classes/providers/otpmultipont.php:26 ..
+#: classes/providers/saferpay.php:41 ../classes/providers/borgun.php:26 ..
+#: classes/providers/fhb.php:28 ../classes/providers/otp.php:28 ..
+#: classes/providers/otpsimplewire.php:28 ../classes/providers/otpay.php:28 ..
+#: classes/providers/unicredit.php:28 ../classes/providers/escalion.php:28 ..
+#: classes/providers/payucash.php:26 ../classes/providers/khbszep.php:26 ..
+#: classes/providers/payu.php:28 ../classes/providers/barion2.php:28 ..
+#: classes/providers/qpay.php:28 ../classes/providers/otpszep.php:41 ..
+#: classes/providers/otpsimple.php:28 ../classes/providers/otp2.php:46 ..
+#: classes/providers/barion.php:26 ../classes/providers/ipg.php:28 ..
+#: classes/providers/sofort.php:26 ../classes/providers/paypal.php:59 ..
+#: classes/providers/sms.php:26 ../classes/providers/payu2.php:28 ..
+#: classes/providers/otpaymp.php:26 ../classes/providers/psc.php:28 ..
+#: classes/providers/borgun2.php:41 ../classes/providers/payuwire.php:28 ..
+#: classes/providers/cib.php:28 ../classes/providers/khb.php:28 ..
+#: classes/providers/mkbszep.php:45
+msgid "Active"
+msgstr "Aktiv"
+
+#: ../classes/providers/mpp2.php:32 ../classes/providers/otpmultipont.php:30 ..
+#: classes/providers/saferpay.php:45 ../classes/providers/borgun.php:30 ..
+#: classes/providers/fhb.php:32 ../classes/providers/otp.php:32 ..
+#: classes/providers/otpsimplewire.php:32 ../classes/providers/otpay.php:32 ..
+#: classes/providers/unicredit.php:32 ../classes/providers/escalion.php:32 ..
+#: classes/providers/payucash.php:30 ../classes/providers/khbszep.php:30 ..
+#: classes/providers/payu.php:32 ../classes/providers/barion2.php:32 ..
+#: classes/providers/qpay.php:32 ../classes/providers/otpszep.php:45 ..
+#: classes/providers/otpsimple.php:32 ../classes/providers/otp2.php:50 ..
+#: classes/providers/barion.php:30 ../classes/providers/ipg.php:32 ..
+#: classes/providers/sofort.php:30 ../classes/providers/paypal.php:63 ..
+#: classes/providers/sms.php:30 ../classes/providers/payu2.php:32 ..
+#: classes/providers/otpaymp.php:30 ../classes/providers/psc.php:32 ..
+#: classes/providers/borgun2.php:45 ../classes/providers/payuwire.php:32 ..
+#: classes/providers/cib.php:32 ../classes/providers/khb.php:32 ..
+#: classes/providers/mkbszep.php:49
+msgid "Display name"
+msgstr "Angezeigter Name"
+
+#: ../classes/providers/saferpay.php:28 ../classes/providers/borgun2.php:28
+msgid "Enable card registration"
+msgstr "Genehmigung der Bankkartenregistrierung"
+
+#: ../classes/providers/saferpay.php:28 ../classes/providers/borgun2.php:28
+msgid "One Click Payment"
+msgstr "Schnellzahlung mit registrierter Bankkarte"
+
+#: ../classes/providers/saferpay.php:50 ../classes/providers/borgun.php:35 ..
+#: classes/providers/fhb.php:37 ../classes/providers/otp.php:37 ..
+#: classes/providers/otpsimplewire.php:37 ../classes/providers/otpay.php:37 ..
+#: classes/providers/unicredit.php:37 ../classes/providers/escalion.php:37 ..
+#: classes/providers/khbszep.php:35 ../classes/providers/barion2.php:37 ..
+#: classes/providers/qpay.php:37 ../classes/providers/otpszep.php:50 ..
+#: classes/providers/otpsimple.php:37 ../classes/providers/otp2.php:55 ..
+#: classes/providers/ipg.php:37 ../classes/providers/sofort.php:35 ..
+#: classes/providers/paypal.php:68 ../classes/providers/sms.php:35 ..
+#: classes/providers/payu2.php:37 ../classes/providers/otpaymp.php:35 ..
+#: classes/providers/psc.php:37 ../classes/providers/borgun2.php:50 ..
+#: classes/providers/cib.php:37 ../classes/providers/khb.php:37 ..
+#: classes/providers/mkbszep.php:54
+msgid "Description"
+msgstr "Beschreibung"
+
+#: ../classes/providers/saferpay.php:54 ../classes/providers/fhb.php:41 ..
+#: classes/providers/otp.php:41 ../classes/providers/otpay.php:41 ..
+#: classes/providers/unicredit.php:41 ../classes/providers/payu.php:37 ..
+#: classes/providers/barion2.php:41 ../classes/providers/qpay.php:41 ..
+#: classes/providers/otpsimple.php:41 ../classes/providers/otp2.php:59 ..
+#: classes/providers/ipg.php:41 ../classes/providers/payu2.php:41 ..
+#: classes/providers/borgun2.php:54
+msgid "Authorization"
+msgstr "Freigabe"
+
+#: ../classes/providers/saferpay.php:57 ../classes/providers/fhb.php:44 ..
+#: classes/providers/otp.php:44 ../classes/providers/otpay.php:44 ..
+#: classes/providers/unicredit.php:44 ../classes/providers/payu.php:40 ..
+#: classes/providers/barion2.php:44 ../classes/providers/qpay.php:44 ..
+#: classes/providers/otpsimple.php:44 ../classes/providers/otp2.php:62 ..
+#: classes/providers/ipg.php:44 ../classes/providers/payu2.php:44 ..
+#: classes/providers/borgun2.php:57
+msgid "Immediate"
+msgstr "Sofort"
+
+#: ../classes/providers/saferpay.php:58 ../classes/providers/fhb.php:45 ..
+#: classes/providers/otp.php:45 ../classes/providers/otpay.php:45 ..
+#: classes/providers/unicredit.php:45 ../classes/providers/payu.php:41 ..
+#: classes/providers/barion2.php:45 ../classes/providers/qpay.php:45 ..
+#: classes/providers/otpsimple.php:45 ../classes/providers/otp2.php:63 ..
+#: classes/providers/ipg.php:45 ../classes/providers/payu2.php:45 ..
+#: classes/providers/borgun2.php:58
+msgid "Later"
+msgstr "Später"
+
+#: ../classes/providers/saferpay.php:63 ../classes/providers/borgun2.php:63
+msgid "Card registration functions"
+msgstr "Zahlungsmöglichkeit mit registrierter Bankkarte"
+
+#: ../classes/providers/saferpay.php:67 ../classes/providers/borgun2.php:67
+msgid "Only card registration"
+msgstr "Nur Genehmigung der Bankkartenregistrierung"
+
+#: ../classes/providers/saferpay.php:68 ../classes/providers/borgun2.php:68
+msgid "Card registration and One Click Payment"
+msgstr "Genehmigung der Bankkartenregistrierung und Schnellzahlung"
+
+#: ../classes/providers/saferpay.php:73
+msgid "Available payment methods"
+msgstr "Wählbare Zahlungsmethoden"
+
+#: ../classes/providers/saferpay.php:76
+msgid "AMEX"
+msgstr "AMEX"
+
+#: ../classes/providers/saferpay.php:77
+msgid "DIRECTDEBIT"
+msgstr "DIRECTDEBIT"
+
+#: ../classes/providers/saferpay.php:78
+msgid "INVOICE"
+msgstr "INVOICE"
+
+#: ../classes/providers/saferpay.php:79
+msgid "BONUS"
+msgstr "BONUS"
+
+#: ../classes/providers/saferpay.php:80
+msgid "DINERS"
+msgstr "DINERS"
+
+#: ../classes/providers/saferpay.php:81
+msgid "EPRZELEWY"
+msgstr "EPRZELEWY"
+
+#: ../classes/providers/saferpay.php:82
+msgid "EPS"
+msgstr "EPS"
+
+#: ../classes/providers/saferpay.php:83
+msgid "GIROPAY"
+msgstr "GIROPAY"
+
+#: ../classes/providers/saferpay.php:84
+msgid "IDEAL"
+msgstr "IDEAL"
+
+#: ../classes/providers/saferpay.php:85
+msgid "JCB"
+msgstr "JCB"
+
+#: ../classes/providers/saferpay.php:86
+msgid "MAESTRO"
+msgstr "MAESTRO"
+
+#: ../classes/providers/saferpay.php:87
+msgid "MASTERCARD"
+msgstr "MASTERCARD"
+
+#: ../classes/providers/saferpay.php:88
+msgid "MYONE"
+msgstr "MYONE"
+
+#: ../classes/providers/saferpay.php:89
+msgid "PAYPAL"
+msgstr "PAYPAL"
+
+#: ../classes/providers/saferpay.php:90
+msgid "POSTCARD"
+msgstr "POSTCARD"
+
+#: ../classes/providers/saferpay.php:91
+msgid "POSTFINANCE"
+msgstr "POSTFINANCE"
+
+#: ../classes/providers/saferpay.php:92
+msgid "SAFERPAYTEST"
+msgstr "SAFERPAYTEST"
+
+#: ../classes/providers/saferpay.php:93
+msgid "SOFORT"
+msgstr "SOFORT"
+
+#: ../classes/providers/saferpay.php:94
+msgid "VISA"
+msgstr "VISA"
+
+#: ../classes/providers/saferpay.php:95
+msgid "VPAY"
+msgstr "VPAY"
+
+#: ../classes/providers/saferpay.php:97 ../classes/providers/saferpay.php:106
+#: .. classes/providers/qpay.php:80
+msgid "The choice is not mandatory"
+msgstr "Die Auswahl ist optional."
+
+#: ../classes/providers/saferpay.php:101
+msgid "Available wallets"
+msgstr "Wählbare Geldbörsen"
+
+#: ../classes/providers/saferpay.php:104
+msgid "MASTERPASS"
+msgstr "MASTERPASS"
+
+#: ../classes/providers/khbszep.php:39 ../classes/providers/otpszep.php:66 ..
+#: classes/providers/mkbszep.php:58
+msgid "Available pocket"
+msgstr "Tasche einstellen"
+
+#: ../classes/providers/khbszep.php:42 ../classes/providers/otpszep.php:69 ..
+#: classes/providers/mkbszep.php:61
+msgid "Please, select a pocket"
+msgstr "Bitte wählen Sie eine Tasche"
+
+#: ../classes/providers/khbszep.php:43 ../classes/providers/otpszep.php:70 ..
+#: classes/providers/mkbszep.php:62
+msgid "Accommodation"
+msgstr "Unterkunft"
+
+#: ../classes/providers/khbszep.php:44 ../classes/providers/otpszep.php:71 ..
+#: classes/providers/mkbszep.php:63
+msgid "Hospitality"
+msgstr "Gastwirtschaft"
+
+#: ../classes/providers/khbszep.php:45 ../classes/providers/otpszep.php:72 ..
+#: classes/providers/mkbszep.php:64
+msgid "Leisure"
+msgstr "Freizeit"
+
+#: ../classes/providers/qpay.php:50
+msgid "Available payment types"
+msgstr "Wählbare Zahlungsarten"
+
+#: ../classes/providers/qpay.php:54
+msgid "Select payment type on Wirecard side"
+msgstr "Auswahl der Zahlungsart auf der Seite Wirecard"
+
+#: ../classes/providers/qpay.php:55
+msgid "Bancontact/Mister Cash"
+msgstr "Bancontact/Mister Cash"
+
+#: ../classes/providers/qpay.php:56
+msgid "Credit Card, Maestro SecureCode"
+msgstr "Bankkarte, Maestro SecureCode"
+
+#: ../classes/providers/qpay.php:57
+msgid "Credit Card - Mail Order and Telephone Order"
+msgstr "Bankkarte - Bestellung per E-Mail und Telefon"
+
+#: ../classes/providers/qpay.php:58
+msgid "eKonto"
+msgstr "eKonto"
+
+#: ../classes/providers/qpay.php:59
+msgid "ePay.bg"
+msgstr "ePay.bg"
+
+#: ../classes/providers/qpay.php:60
+msgid "eps Online-wire"
+msgstr "eps Online-wire"
+
+#: ../classes/providers/qpay.php:61
+msgid "giropay"
+msgstr "giropay"
+
+#: ../classes/providers/qpay.php:62
+msgid "iDEAL"
+msgstr "iDEAL"
+
+#: ../classes/providers/qpay.php:63
+msgid "moneta.ru"
+msgstr "moneta.ru"
+
+#: ../classes/providers/qpay.php:64
+msgid "mpass"
+msgstr "mpass"
+
+#: ../classes/providers/qpay.php:65
+msgid "Przelewy24"
+msgstr "Przelewy24"
+
+#: ../classes/providers/qpay.php:67
+msgid "paybox"
+msgstr "paybox"
+
+#: ../classes/providers/qpay.php:68
+msgid "POLi"
+msgstr "POLi"
+
+#: ../classes/providers/qpay.php:70
+msgid "@Quick"
+msgstr "@Quick"
+
+#: ../classes/providers/qpay.php:71
+msgid "SEPA Direct Debit"
+msgstr "SEPA Direct Debit"
+
+#: ../classes/providers/qpay.php:72
+msgid "Skrill Direct"
+msgstr "Skrill Direct"
+
+#: ../classes/providers/qpay.php:73
+msgid "Skrill Digital Wallet"
+msgstr "Skrill Digital Wallet"
+
+#: ../classes/providers/qpay.php:74
+msgid "SOFORT Banking"
+msgstr "SOFORT Banking"
+
+#: ../classes/providers/qpay.php:75
+msgid "TatraPay"
+msgstr "TatraPay"
+
+#: ../classes/providers/qpay.php:76
+msgid "Trustly"
+msgstr "Trustly"
+
+#: ../classes/providers/qpay.php:77
+msgid "TrustPay"
+msgstr "TrustPay"
+
+#: ../classes/providers/qpay.php:78
+msgid "My Voucher"
+msgstr "My Voucher"
+
+#: ../classes/providers/otpszep.php:54
+msgid "SZÉP Store name"
+msgstr "Name des Shops mit der OTP SZÉP karte"
+
+#: ../classes/providers/otpszep.php:60
+msgid "SZÉP API key"
+msgstr ""
+"Name des Shops mit der OTP SZÉP karte \n"
+"API-Schlüssel"
+
+#: ../classes/providers/otp2.php:31 ../classes/providers/mkbszep.php:30
+msgid "Card number"
+msgstr "Kartennummer"
+
+#: ../classes/providers/otp2.php:32
+msgid "Card expiration (mmyy)"
+msgstr "Ablauf der Karte (MMJJ)"
+
+#: ../classes/providers/otp2.php:33
+msgid "CVC"
+msgstr "CVC"
+
+#: ../classes/providers/otp2.php:68 ../classes/providers/mkbszep.php:77
+msgid "Encrypt public key"
+msgstr "Öffentlicher Schlüssel"
+
+#: ../classes/providers/paypal.php:32 ../classes/providers/paypal.php:72
+msgid "Enable recurring payment"
+msgstr "Genehmigung wiederkehrender Zahlungen"
+
+#: ../classes/providers/paypal.php:35 ../classes/providers/paypal.php:43
+msgid "Billing period"
+msgstr "Rechnungsstellungsperiode"
+
+#: ../classes/providers/paypal.php:81
+msgid "Available billing periods to recurring payment"
+msgstr "Mögliche Rechnungsstellungsperioden für wiederkehrende Zahlungen"
+
+#: ../classes/providers/paypal.php:85
+msgid "Day"
+msgstr "täglich"
+
+#: ../classes/providers/paypal.php:86
+msgid "Week"
+msgstr "wöchentlich"
+
+#: ../classes/providers/paypal.php:87
+msgid "SemiMonth"
+msgstr "halbmonatlich"
+
+#: ../classes/providers/paypal.php:88
+msgid "Month"
+msgstr "monatlich"
+
+#: ../classes/providers/paypal.php:89
+msgid "Year"
+msgstr "jährlich"
+
+#: ../classes/providers/paypal.php:91
+msgid ""
+"Select one to default. If you select more customer also can choose from."
+msgstr ""
+"Die ausgewählte Option gilt als Standardperiode. Wenn mehrere ausgewählt "
+"werden, kann auch der Käufer mehrere auswählen."
+
+#: ../classes/providers/mkbszep.php:31
+msgid "CVV"
+msgstr "CVV"
+
+#: ../classes/providers/mkbszep.php:68
+msgid "Add card data on Payment Gateway page"
+msgstr "Angabe der Kartendaten auf der Seite Payment Gateway"
+
+msgid "Use translation function"
+msgstr "Sprachdatei benutzen"
+
+msgid "Enable to use system translation from .po file"
+msgstr "Übersetzung aus der beigefügten .po-Datei"
+
+msgid "You find with this tokens/keys: %s, %s"
+msgstr "Übersetzer im Editor mit folgenden Namen: %s, %s"
+
+msgid "successful_transaction_notification"
+msgstr ""
+"<b>Transaktion Erfolgreich.</b><br/>%s: <b>%s</b><br/>Bestell ID: <b>%s</b>"
+"<br/>Date: <b>%s</b>"
+
+msgid "canceled_transaction_notification"
+msgstr ""
+"Transaktion abgebrochen.<br /><br />Sie haben die Transaktion nicht "
+"genehmigt oder Sie haben der maximalen Transaktionszeit übersteigt!<br /><br "
+"/>Bestell ID: <b>%s</b><br/>Date: <b>%s</b>"
+
+msgid "error_transaction_notification"
+msgstr ""
+"Transaktionsfehler.<br /><br />Bitte überprüfen Sie die Daten, die während "
+"der Transaktion eingegeben wurden! Wenn Sie haben alle Daten richtig "
+"eingegeben, bitte nehmen Sie den Kontakt mit Ihrem Kartenherausgeber auf, um "
+"Grund der Ablehnung zu untersuchen!<br /><br/>%s: <b>%s</b><br/>Bestell ID: "
+"<b>%s</b><br/>Date: <b>%s</b>"
+
+msgid "Minimum amount (only HUF)"
+msgstr "Mindestbetrag (nur HUF)"
+
+msgid "Maximum amount (only HUF)"
+msgstr "Höchstbetrag (nur HUF)"
+
+msgid "This payment available only in Hungarian forint"
+msgstr "Diese Zahlung ist nur in ungarischen Forint möglich"
+
+msgid "You can also select one or more pocket"
+msgstr "Sie können auch eine oder mehrere Taschen auswählen"
+
+msgid "Select pocket"
+msgstr "Tasche auswählen"
+
+msgid "Pocket"
+msgstr "Tasche"
+
+msgid "provider_BBAruhitel_display_name"
+msgstr "MBH Online Handelskredit"
+
+msgid "provider_Borgun2_display_name"
+msgstr "Borgun RPG"
+
+msgid "provider_Borgun2_display_description"
+msgstr ""
+
+msgid "provider_CIB_display_name"
+msgstr "CIB Bank"
+
+msgid "provider_CIB_display_description"
+msgstr ""
+
+msgid "provider_OTP_display_name"
+msgstr "OTP Bank"
+
+msgid "provider_OTP_display_description"
+msgstr ""
+
+msgid "provider_Barion2_display_name"
+msgstr "Barion Smart Gateway"
+
+msgid "provider_Barion2_display_description"
+msgstr ""
+
+msgid "provider_Borgun_display_name"
+msgstr "Borgun SecurePay"
+
+msgid "provider_Borgun_display_description"
+msgstr ""
+
+msgid "provider_Escalion_display_name"
+msgstr "Escalion"
+
+msgid "provider_Escalion_display_description"
+msgstr ""
+
+msgid "provider_FHB_display_name"
+msgstr "FHB Bank"
+
+msgid "provider_FHB_display_description"
+msgstr ""
+
+msgid "provider_GP_display_name"
+msgstr "Global Payments"
+
+msgid "provider_GP_display_description"
+msgstr ""
+
+msgid "provider_IPG_display_name"
+msgstr "Intelligent Payments"
+
+msgid "provider_IPG_display_description"
+msgstr ""
+
+msgid "provider_KHB_display_name"
+msgstr "K&H Bank"
+
+msgid "provider_KHB_display_description"
+msgstr ""
+
+msgid "provider_KHBSZEP_display_name"
+msgstr "K&H SZÉP karte"
+
+msgid "provider_KHBSZEP_display_description"
+msgstr ""
+
+msgid "provider_MKBSZEP_display_name"
+msgstr "MBH SZÉP karte"
+
+msgid "provider_MKBSZEP_display_description"
+msgstr ""
+
+msgid "provider_OTP2_display_name"
+msgstr "OTP Bank (zwei teilnehmer)"
+
+msgid "provider_OTP2_display_description"
+msgstr ""
+
+msgid "provider_OTPMultipont_display_name"
+msgstr "OTP Multipont"
+
+msgid "provider_OTPMultipont_display_description"
+msgstr ""
+
+msgid "provider_OTPSZEP_display_name"
+msgstr "OTP SZÉP karte"
+
+msgid "provider_OTPSZEP_display_description"
+msgstr ""
+
+msgid "provider_OTPay_display_name"
+msgstr "OTPay"
+
+msgid "provider_OTPay_display_description"
+msgstr ""
+
+msgid "provider_OTPayMP_display_name"
+msgstr "OTPay MasterPass"
+
+msgid "provider_OTPayMP_display_description"
+msgstr ""
+
+msgid "provider_PayPal_display_name"
+msgstr "PayPal (Classic)"
+
+msgid "provider_PayPal_display_description"
+msgstr ""
+
+msgid "provider_PSC_display_name"
+msgstr "paysafecard"
+
+msgid "provider_PSC_display_description"
+msgstr ""
+
+msgid "provider_PayU2_display_name"
+msgstr "PayU (Classic)"
+
+msgid "provider_PayU2_display_description"
+msgstr ""
+
+msgid "provider_Saferpay_display_name"
+msgstr "Worldline"
+
+msgid "provider_Saferpay_display_description"
+msgstr ""
+
+msgid "provider_OTPSimple_display_name"
+msgstr "SimplePay"
+
+msgid "provider_OTPSimple_display_description"
+msgstr ""
+
+msgid "provider_OTPSimpleWire_display_name"
+msgstr "SimplePay Wire"
+
+msgid "provider_OTPSimpleWire_display_description"
+msgstr ""
+
+msgid "provider_SMS_display_name"
+msgstr "SMS"
+
+msgid "provider_SMS_display_description"
+msgstr ""
+
+msgid "provider_Sofort_display_name"
+msgstr "Sofort Banking"
+
+msgid "provider_Sofort_display_description"
+msgstr ""
+
+msgid "provider_UniCredit_display_name"
+msgstr "UniCredit Bank"
+
+msgid "provider_UniCredit_display_description"
+msgstr ""
+
+msgid "provider_Virpay_display_name"
+msgstr "VirPAY"
+
+msgid "provider_Virpay_display_description"
+msgstr ""
+
+msgid "provider_QPAY_display_name"
+msgstr "Wirecard QPAY"
+
+msgid "provider_QPAY_display_description"
+msgstr ""
+
+msgid "Pay with"
+msgstr "Bezahlen mit"
+
+msgid "New card"
+msgstr "Neue Karte"
+
+msgid "Card registration"
+msgstr "Kartenregistrierung"
+
+msgid "Pay with card registration"
+msgstr "Bezahlen Sie mit der Kartenregistrierung"
+
+msgid "Invalid payment token."
+msgstr "Ungültiger Zahlungstoken."
+
+msgid "Payment token deleted."
+msgstr "Zahlungstoken gelöscht."
+
+msgid "Error at token delete"
+msgstr "Fehler beim Löschen des Tokens"
+
+msgid "Card"
+msgstr "Karte"
+
+msgid "provider_BBAruhitel_display_description"
+msgstr ""
+
+msgid "provider_OTPAruhitel_display_name"
+msgstr "OTP Bank Handelskredit"
+
+msgid "provider_OTPAruhitel_display_description"
+msgstr ""
+
+msgid "provider_PayPalRest_display_name"
+msgstr "PayPal (REST)"
+
+msgid "provider_PayPalRest_display_description"
+msgstr ""
+
+msgid "provider_PayURest_display_name"
+msgstr "PayU (REST)"
+
+msgid "provider_PayURest_display_description"
+msgstr ""
+
+msgid "provider_Wirecard_display_name"
+msgstr "Wirecard"
+
+msgid "provider_Wirecard_display_description"
+msgstr ""
+
+msgid "OTP Bank trade loan"
+msgstr "OTP Bank Handelskredit"
+
+msgid "PayPal (Rest)"
+msgstr "PayPal (REST)"
+
+msgid "PayU (Rest)"
+msgstr "PayU (REST)"
+
+msgid "Wirecard"
+msgstr "Wirecard"
+
+msgid "pending_transaction_notification"
+msgstr ""
+"Bitte beachten Sie, dass die Transaktion mit den folgenden Daten gestartet "
+"wurde und die Verarbeitung läuft. Wir werden Sie per E-Mail benachrichtigen, "
+"sobald die Transaktion erfolgreich ist.<br/><br/>%s: <b>%s</b><br/>Bestell "
+"ID: <b>%s</b><br/>Date: <b>%s</b>"
+
+msgid "Food voucher"
+msgstr "Essensgutschein"
+
+msgid "Hot meals voucher"
+msgstr "Gutschein für warme Mahlzeiten"
+
+msgid "Back-to-school voucher"
+msgstr "Gutschein für den Schulanfang"
+
+msgid "Culture voucher"
+msgstr "Kulturgutschein"
+
+msgid "Gift voucher"
+msgstr "Geschenkgutschein"
+
+msgid "Sport voucher"
+msgstr "Sport-Gutschein"
+
+msgid "Wallet"
+msgstr "Brieftasche"
+
+msgid "provider_transaction_id_message_cib"
+msgstr "Transaktion ID (TRID)"
+
+msgid "provider_transaction_id_message_default"
+msgstr "%s Referenznummer"

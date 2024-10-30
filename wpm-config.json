@@ -1,0 +1,136 @@
+{
+  "options": {
+    "woocommerce_BigFishPaymentGatewayCIB_settings": {
+      "displayname" : {},
+      "description" : {}
+    },
+    "woocommerce_BigFishPaymentGatewayBarion2_settings": {
+      "displayname" : {},
+      "description" : {}
+    },
+    "woocommerce_BigFishPaymentGatewayBorgun_settings": {
+      "displayname" : {},
+      "description" : {}
+    },
+    "woocommerce_BigFishPaymentGatewayBorgun2_settings": {
+      "displayname" : {},
+      "description" : {}
+    },
+    "woocommerce_BigFishPaymentGatewayBBAruhitel_settings": {
+      "displayname" : {},
+      "description" : {}
+    },
+    "woocommerce_BigFishPaymentGatewayEscalion_settings": {
+      "displayname" : {},
+      "description" : {}
+    },
+    "woocommerce_BigFishPaymentGatewayFHB_settings": {
+      "displayname" : {},
+      "description" : {}
+    },
+    "woocommerce_BigFishPaymentGatewayGP_settings": {
+      "displayname" : {},
+      "description" : {}
+    },
+    "woocommerce_BigFishPaymentGatewayIPG_settings": {
+      "displayname" : {},
+      "description" : {}
+    },
+    "woocommerce_BigFishPaymentGatewayKHB_settings": {
+      "displayname" : {},
+      "description" : {}
+    },
+    "woocommerce_BigFishPaymentGatewayKHBSZEP_settings": {
+      "displayname" : {},
+      "description" : {}
+    },
+    "woocommerce_BigFishPaymentGatewayMKBSZEP_settings": {
+      "displayname" : {},
+      "description" : {}
+    },
+    "woocommerce_BigFishPaymentGatewayOTP_settings": {
+      "displayname" : {},
+      "description" : {}
+    },
+    "woocommerce_BigFishPaymentGatewayOTP2_settings": {
+      "displayname" : {},
+      "description" : {}
+    },
+    "woocommerce_BigFishPaymentGatewayOTPMultipont_settings": {
+      "displayname" : {},
+      "description" : {}
+    },
+    "woocommerce_BigFishPaymentGatewayOTPay_settings": {
+      "displayname" : {},
+      "description" : {}
+    },
+    "woocommerce_BigFishPaymentGatewayOTPSZEP_settings": {
+      "displayname" : {},
+      "description" : {}
+    },
+    "woocommerce_BigFishPaymentGatewayOTPayMP_settings": {
+      "displayname" : {},
+      "description" : {}
+    },
+    "woocommerce_BigFishPaymentGatewayOTPSimple_settings": {
+      "displayname" : {},
+      "description" : {}
+    },
+    "woocommerce_BigFishPaymentGatewayOTPSimpleWire_settings": {
+      "displayname" : {},
+      "description" : {}
+    },
+    "woocommerce_BigFishPaymentGatewayPayPal_settings": {
+      "displayname" : {},
+      "description" : {}
+    },
+    "woocommerce_BigFishPaymentGatewayPSC_settings": {
+      "displayname" : {},
+      "description" : {}
+    },
+    "woocommerce_BigFishPaymentGatewayPayU2_settings": {
+      "displayname" : {},
+      "description" : {}
+    },
+    "woocommerce_BigFishPaymentGatewaySaferpay_settings": {
+      "displayname" : {},
+      "description" : {}
+    },
+    "woocommerce_BigFishPaymentGatewaySMS_settings": {
+      "displayname" : {},
+      "description" : {}
+    },
+    "woocommerce_BigFishPaymentGatewaySofort_settings": {
+      "displayname" : {},
+      "description" : {}
+    },
+    "woocommerce_BigFishPaymentGatewayUniCredit_settings": {
+      "displayname" : {},
+      "description" : {}
+    },
+    "woocommerce_BigFishPaymentGatewayVirpay_settings": {
+      "displayname" : {},
+      "description" : {}
+    },
+    "woocommerce_BigFishPaymentGatewayQPAY_settings": {
+      "displayname" : {},
+      "description" : {}
+    },
+    "woocommerce_BigFishPaymentGatewayOTPAruhitel_settings": {
+      "displayname" : {},
+      "description" : {}
+    },
+    "woocommerce_BigFishPaymentGatewayPayPalRest_settings": {
+      "displayname" : {},
+      "description" : {}
+    },
+    "woocommerce_BigFishPaymentGatewayPayURest_settings": {
+      "displayname" : {},
+      "description" : {}
+    },
+    "woocommerce_BigFishPaymentGatewayWirecard_settings": {
+      "displayname" : {},
+      "description" : {}
+    }
+  }
+}

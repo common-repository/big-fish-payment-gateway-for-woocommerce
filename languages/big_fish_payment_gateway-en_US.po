@@ -1,0 +1,297 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BIG FISH Payment Gateway for WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-27 14:41+0000\n"
+"PO-Revision-Date: 2022-03-11 06:35+0000\n"
+"Last-Translator: bfadmin <krisztian.viderspan@bigfish.hu>\n"
+"Language-Team: English (United States)\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.1; wp-5.5.1"
+
+#. Name of the plugin
+msgid "BIG FISH Payment Gateway for WooCommerce"
+msgstr "BIG FISH Payment Gateway for WooCommerce"
+
+#. Description of the plugin
+msgid ""
+"BIG FISH Payment Gateway system provides more different payment solutions "
+"for webshops, where all the payment methods of the webshop can be managed in "
+"one place."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://www.paymentgateway.hu/"
+msgstr "https://www.paymentgateway.hu/"
+
+#. Author of the plugin
+msgid "BIG FISH Internet-technológiai Ltd."
+msgstr "BIG FISH Internet-technologiai Ltd."
+
+#. Author URI of the plugin
+msgid "http://bigfish.hu"
+msgstr "http://bigfish.hu"
+
+msgid "successful_transaction_notification"
+msgstr ""
+"<b>Successful transaction.</b><br/>%s: <b>%s</b><br/>Order ID: <b>%s</b><br/>"
+"Date: <b>%s</b>"
+
+msgid "canceled_transaction_notification"
+msgstr ""
+"Cancelled transaction.<br /><br />You have interrupted the payment process "
+"or run out of the maximum time limit available!<br /><br />Order ID: <b>"
+"%s</b><br/>Date: <b>%s</b>"
+
+msgid "error_transaction_notification"
+msgstr ""
+"Unsuccessful transaction.<br /><br />Please double-check the data you have "
+"entered on the payment page. If all the data were correct, please contact "
+"your card issuing bank to investigate the cause of rejection.<br /><br/>%s: "
+"<b>%s</b><br/>Order ID: <b>%s</b><br/>Date: <b>%s</b>"
+
+msgid "provider_Borgun2_display_name"
+msgstr "Borgun RPG"
+
+msgid "provider_Borgun2_display_description"
+msgstr ""
+
+msgid "provider_CIB_display_name"
+msgstr "CIB Bank"
+
+msgid "provider_CIB_display_description"
+msgstr ""
+
+msgid "provider_OTP_display_name"
+msgstr "OTP Bank"
+
+msgid "provider_OTP_display_description"
+msgstr ""
+
+msgid "provider_Barion2_display_name"
+msgstr "Barion Smart Gateway"
+
+msgid "provider_Barion2_display_description"
+msgstr ""
+
+msgid "provider_Borgun_display_name"
+msgstr "Borgun SecurePay"
+
+msgid "provider_Borgun_display_description"
+msgstr ""
+
+msgid "provider_Escalion_display_name"
+msgstr "Escalion"
+
+msgid "provider_Escalion_display_description"
+msgstr ""
+
+msgid "provider_FHB_display_name"
+msgstr "FHB Bank"
+
+msgid "provider_FHB_display_description"
+msgstr ""
+
+msgid "provider_GP_display_name"
+msgstr "Global Payments"
+
+msgid "provider_GP_display_description"
+msgstr ""
+
+msgid "provider_IPG_display_name"
+msgstr "Intelligent Payments"
+
+msgid "provider_IPG_display_description"
+msgstr ""
+
+msgid "provider_KHB_display_name"
+msgstr "K&H Bank"
+
+msgid "provider_KHB_display_description"
+msgstr ""
+
+msgid "provider_KHBSZEP_display_name"
+msgstr "K&H SZÉP Card"
+
+msgid "provider_KHBSZEP_display_description"
+msgstr ""
+
+msgid "provider_MKBSZEP_display_name"
+msgstr "MBH SZÉP Card"
+
+msgid "provider_MKBSZEP_display_description"
+msgstr ""
+
+msgid "provider_OTP2_display_name"
+msgstr "OTP Bank (two participants)"
+
+msgid "provider_OTP2_display_description"
+msgstr ""
+
+msgid "provider_OTPMultipont_display_name"
+msgstr "OTP Multipont"
+
+msgid "provider_OTPMultipont_display_description"
+msgstr ""
+
+msgid "provider_OTPSZEP_display_name"
+msgstr "OTP SZÉP Card"
+
+msgid "provider_OTPSZEP_display_description"
+msgstr ""
+
+msgid "provider_OTPay_display_name"
+msgstr "OTPay"
+
+msgid "provider_OTPay_display_description"
+msgstr ""
+
+msgid "provider_OTPayMP_display_name"
+msgstr "OTPay MasterPass"
+
+msgid "provider_OTPayMP_display_description"
+msgstr ""
+
+msgid "provider_PayPal_display_name"
+msgstr "PayPal"
+
+msgid "provider_PSC_display_name"
+msgstr "paysafecard"
+
+msgid "provider_PSC_display_description"
+msgstr ""
+
+msgid "provider_PayU2_display_name"
+msgstr "PayU (Classic)"
+
+msgid "provider_PayU2_display_description"
+msgstr ""
+
+msgid "provider_Saferpay_display_name"
+msgstr "Worldline"
+
+msgid "provider_Saferpay_display_description"
+msgstr ""
+
+msgid "provider_OTPSimple_display_name"
+msgstr "SimplePay"
+
+msgid "provider_OTPSimple_display_description"
+msgstr ""
+
+msgid "provider_OTPSimpleWire_display_name"
+msgstr "SimplePay Wire"
+
+msgid "provider_OTPSimpleWire_display_description"
+msgstr ""
+
+msgid "provider_SMS_display_name"
+msgstr "SMS"
+
+msgid "provider_SMS_display_description"
+msgstr ""
+
+msgid "provider_Sofort_display_name"
+msgstr "Sofort Banking"
+
+msgid "provider_Sofort_display_description"
+msgstr ""
+
+msgid "provider_UniCredit_display_name"
+msgstr "UniCredit Bank"
+
+msgid "provider_UniCredit_display_description"
+msgstr ""
+
+msgid "provider_Virpay_display_name"
+msgstr "VirPAY"
+
+msgid "provider_Virpay_display_description"
+msgstr ""
+
+msgid "provider_QPAY_display_name"
+msgstr "Wirecard QPAY"
+
+msgid "provider_QPAY_display_description"
+msgstr ""
+
+msgid "provider_BBAruhitel_display_name"
+msgstr "MBH online trade loan"
+
+msgid "provider_BBAruhitel_display_description"
+msgstr ""
+
+msgid "provider_OTPAruhitel_display_name"
+msgstr "OTP Bank trade loan"
+
+msgid "provider_OTPAruhitel_display_description"
+msgstr ""
+
+msgid "provider_PayPalRest_display_name"
+msgstr "PayPal (REST)"
+
+msgid "provider_PayPalRest_display_description"
+msgstr ""
+
+msgid "provider_PayURest_display_name"
+msgstr "PayU (REST)"
+
+msgid "provider_PayURest_display_description"
+msgstr ""
+
+msgid "provider_Wirecard_display_name"
+msgstr "Wirecard"
+
+msgid "provider_Wirecard_display_description"
+msgstr ""
+
+msgid "OTP Bank trade loan"
+msgstr "OTP Bank trade loan"
+
+msgid "PayPal (Rest)"
+msgstr "PayPal (REST)"
+
+msgid "PayU (Rest)"
+msgstr "PayU (REST)"
+
+msgid "Wirecard"
+msgstr "Wirecard"
+
+msgid "pending_transaction_notification"
+msgstr ""
+"Please be informed that the transaction has started with the following data, "
+"processing is in progress. We will notify you by email as soon as the "
+"transaction is successful.<br/><br/>%s: <b>%s</b><br/>Order ID: <b>%s</b>"
+"<br/>Date: <b>%s</b>"
+
+msgid "Food voucher"
+msgstr "Food voucher"
+
+msgid "Hot meals voucher"
+msgstr "Hot meals voucher"
+
+msgid "Back-to-school voucher"
+msgstr "Back-to-school voucher"
+
+msgid "Culture voucher"
+msgstr "Culture voucher"
+
+msgid "Gift voucher"
+msgstr "Gift voucher"
+
+msgid "Sport voucher"
+msgstr "Sport voucher"
+
+msgid "Wallet"
+msgstr "Wallet"
+
+msgid "provider_transaction_id_message_cib"
+msgstr "Transaction ID (TRID)"
+
+msgid "provider_transaction_id_message_default"
+msgstr "%s reference number"

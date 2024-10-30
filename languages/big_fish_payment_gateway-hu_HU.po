@@ -1,0 +1,933 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BIG FISH Payment Gateway for WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Thu Mar 26 2015 13:39:48 GMT+0100 (CET)\n"
+"PO-Revision-Date: 2022-03-11 06:32+0000\n"
+"Last-Translator: bfadmin <krisztian.viderspan@bigfish.hu>\n"
+"Language-Team: Magyar\n"
+"Language: hu_HU\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: hu_HU\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.1; wp-5.5.1"
+
+#. Name of the plugin
+msgid "BIG FISH Payment Gateway for WooCommerce"
+msgstr "BIG FISH Payment Gateway for WooCommerce"
+
+#. URI of the plugin
+msgid "https://www.paymentgateway.hu"
+msgstr "https://www.paymentgateway.hu"
+
+#. Description of the plugin
+msgid ""
+"BIG FISH Payment Gateway system provides more different payment solutions "
+"for webshops, where all the payment methods of the webshop can be managed in "
+"one place."
+msgstr ""
+"A BIG FISH Payment Gateway egy olyan szolgáltatás, amely segítségével Ön "
+"többféle elektronikus fizetési megoldást kínálhat webáruházában."
+
+#. Author of the plugin
+msgid "BIG FISH Internet-technológiai Ltd."
+msgstr "BIG FISH Internet-technológiai Kft."
+
+#. Author URI of the plugin
+msgid "http://bigfish.hu"
+msgstr "http://bigfish.hu"
+
+#: ../big_fish_payment_gateway.php:132
+msgid "Settings"
+msgstr "Beállítások"
+
+#: ../big_fish_payment_gateway.php:136
+msgid "Store name"
+msgstr "Bolt neve"
+
+#: ../big_fish_payment_gateway.php:142
+msgid "API key"
+msgstr "API kulcs"
+
+#: ../big_fish_payment_gateway.php:148
+msgid "Test mode"
+msgstr "Teszt mód"
+
+#: ../big_fish_payment_gateway.php:151 ../classes/providers/paypal.php:76 ..
+#: classes/providers/mkbszep.php:72
+msgid "Yes"
+msgstr "Igen"
+
+#: ../big_fish_payment_gateway.php:152 ../classes/providers/saferpay.php:66 ..
+#: classes/providers/paypal.php:75 ../classes/providers/borgun2.php:66 ..
+#: classes/providers/mkbszep.php:71
+msgid "No"
+msgstr "Nem"
+
+#: ../big_fish_payment_gateway.php:157
+msgid "Available providers"
+msgstr "Elérhető szolgáltatók"
+
+#: ../big_fish_payment_gateway.php:160
+msgid "Barion Smart Gateway"
+msgstr "Barion Smart Gateway"
+
+#: ../big_fish_payment_gateway.php:161
+msgid "Borgun SecurePay"
+msgstr "Borgun SecurePay"
+
+#: ../big_fish_payment_gateway.php:162
+msgid "Borgun RPG"
+msgstr "Borgun RPG"
+
+msgid "MBH online trade loan"
+msgstr "MBH Online Áruhitel"
+
+#: ../big_fish_payment_gateway.php:163
+msgid "CIB Bank"
+msgstr "CIB Bank"
+
+#: ../big_fish_payment_gateway.php:164
+msgid "Escalion"
+msgstr "Escalion"
+
+#: ../big_fish_payment_gateway.php:165
+msgid "FHB Bank"
+msgstr "FHB Bank"
+
+#: ../big_fish_payment_gateway.php:166
+msgid "Intelligent Payments"
+msgstr "Intelligent Payments"
+
+#: ../big_fish_payment_gateway.php:167
+msgid "K&H Bank"
+msgstr "K&H Bank"
+
+#: ../big_fish_payment_gateway.php:168
+msgid "K&H SZÉP Card"
+msgstr "K&H SZÉP Kártya"
+
+#: ../big_fish_payment_gateway.php:169
+msgid "MBH SZÉP Card"
+msgstr "MBH SZÉP Kártya"
+
+#: ../big_fish_payment_gateway.php:170
+msgid "OTP Bank"
+msgstr "OTP Bank"
+
+#: ../big_fish_payment_gateway.php:171
+msgid "OTP Bank (two participants)"
+msgstr "OTP Bank (kétszereplős)"
+
+#: ../big_fish_payment_gateway.php:172
+msgid "OTP Multipont"
+msgstr "OTP Multipont"
+
+#: ../big_fish_payment_gateway.php:173
+msgid "OTP SZÉP Card"
+msgstr "OTP SZÉP Kártya"
+
+#: ../big_fish_payment_gateway.php:174
+msgid "OTPay"
+msgstr "OTPay"
+
+#: ../big_fish_payment_gateway.php:175
+msgid "OTPay MasterPass"
+msgstr "OTPay MasterPass"
+
+#: ../big_fish_payment_gateway.php:176 ../classes/providers/qpay.php:66
+msgid "PayPal"
+msgstr "PayPal"
+
+#: ../big_fish_payment_gateway.php:177 ../classes/providers/qpay.php:69
+msgid "paysafecard"
+msgstr "paysafecard"
+
+#: ../big_fish_payment_gateway.php:178
+msgid "PayU (Classic)"
+msgstr "PayU (Classic)"
+
+#: ../big_fish_payment_gateway.php:179
+msgid "Worldline"
+msgstr "Worldline"
+
+#: ../big_fish_payment_gateway.php:180
+msgid "SimplePay"
+msgstr "SimplePay"
+
+#: ../big_fish_payment_gateway.php:181
+msgid "SimplePay Wire"
+msgstr "SimplePay Wire"
+
+#: ../big_fish_payment_gateway.php:182
+msgid "SMS"
+msgstr "SMS"
+
+#: ../big_fish_payment_gateway.php:183
+msgid "Sofort Banking"
+msgstr "Sofort Banking"
+
+#: ../big_fish_payment_gateway.php:184
+msgid "UniCredit Bank"
+msgstr "UniCredit Bank"
+
+#: ../big_fish_payment_gateway.php:185
+msgid "Wirecard QPAY"
+msgstr "Wirecard QPAY"
+
+#: ../big_fish_payment_gateway.php:282
+msgid "No transaction ID!"
+msgstr "Hiányzó tranzakció azonosító!"
+
+#: ../big_fish_payment_gateway.php:311 ../big_fish_payment_gateway.php:379 ..
+#: big_fish_payment_gateway.php:771
+msgid "Provider transaction ID"
+msgstr "Szolgáltató tranzakció azonosító"
+
+#: ../big_fish_payment_gateway.php:314
+msgid "Authorization number"
+msgstr "Engedélyszám"
+
+#: ../big_fish_payment_gateway.php:322
+msgid "Recurring payment period"
+msgstr "Ismétlődő fizetés periódusa"
+
+#: ../big_fish_payment_gateway.php:479 ../big_fish_payment_gateway.php:481
+msgid "Transaction closed"
+msgstr "Tranzakció lezárás"
+
+#: ../big_fish_payment_gateway.php:479 ../big_fish_payment_gateway.php:776
+msgid "SUCCESSFUL"
+msgstr "SIKERES"
+
+#: ../big_fish_payment_gateway.php:481 ../big_fish_payment_gateway.php:779
+msgid "FAILED"
+msgstr "SIKERTELEN"
+
+#: ../big_fish_payment_gateway.php:618
+msgid "Recurring payment"
+msgstr "Ismétlődő fizetés"
+
+#: ../big_fish_payment_gateway.php:668
+msgid "Database insert error!"
+msgstr "Adatbázis hiba!"
+
+#: ../big_fish_payment_gateway.php:776 ../big_fish_payment_gateway.php:779
+msgid "Refund"
+msgstr "Visszatérítés"
+
+#: ../classes/providers/mpp2.php:28 ../classes/providers/otpmultipont.php:26 ..
+#: classes/providers/saferpay.php:41 ../classes/providers/borgun.php:26 ..
+#: classes/providers/fhb.php:28 ../classes/providers/otp.php:28 ..
+#: classes/providers/otpsimplewire.php:28 ../classes/providers/otpay.php:28 ..
+#: classes/providers/unicredit.php:28 ../classes/providers/escalion.php:28 ..
+#: classes/providers/payucash.php:26 ../classes/providers/khbszep.php:26 ..
+#: classes/providers/payu.php:28 ../classes/providers/barion2.php:28 ..
+#: classes/providers/qpay.php:28 ../classes/providers/otpszep.php:41 ..
+#: classes/providers/otpsimple.php:28 ../classes/providers/otp2.php:46 ..
+#: classes/providers/barion.php:26 ../classes/providers/ipg.php:28 ..
+#: classes/providers/sofort.php:26 ../classes/providers/paypal.php:59 ..
+#: classes/providers/sms.php:26 ../classes/providers/payu2.php:28 ..
+#: classes/providers/otpaymp.php:26 ../classes/providers/psc.php:28 ..
+#: classes/providers/borgun2.php:41 ../classes/providers/payuwire.php:28 ..
+#: classes/providers/cib.php:28 ../classes/providers/khb.php:28 ..
+#: classes/providers/mkbszep.php:45
+msgid "Active"
+msgstr "Aktív"
+
+#: ../classes/providers/mpp2.php:32 ../classes/providers/otpmultipont.php:30 ..
+#: classes/providers/saferpay.php:45 ../classes/providers/borgun.php:30 ..
+#: classes/providers/fhb.php:32 ../classes/providers/otp.php:32 ..
+#: classes/providers/otpsimplewire.php:32 ../classes/providers/otpay.php:32 ..
+#: classes/providers/unicredit.php:32 ../classes/providers/escalion.php:32 ..
+#: classes/providers/payucash.php:30 ../classes/providers/khbszep.php:30 ..
+#: classes/providers/payu.php:32 ../classes/providers/barion2.php:32 ..
+#: classes/providers/qpay.php:32 ../classes/providers/otpszep.php:45 ..
+#: classes/providers/otpsimple.php:32 ../classes/providers/otp2.php:50 ..
+#: classes/providers/barion.php:30 ../classes/providers/ipg.php:32 ..
+#: classes/providers/sofort.php:30 ../classes/providers/paypal.php:63 ..
+#: classes/providers/sms.php:30 ../classes/providers/payu2.php:32 ..
+#: classes/providers/otpaymp.php:30 ../classes/providers/psc.php:32 ..
+#: classes/providers/borgun2.php:45 ../classes/providers/payuwire.php:32 ..
+#: classes/providers/cib.php:32 ../classes/providers/khb.php:32 ..
+#: classes/providers/mkbszep.php:49
+msgid "Display name"
+msgstr "Megjelenő név"
+
+#: ../classes/providers/saferpay.php:28 ../classes/providers/borgun2.php:28
+msgid "Enable card registration"
+msgstr "Bankkártya regisztrálásának engedélyezése"
+
+#: ../classes/providers/saferpay.php:28 ../classes/providers/borgun2.php:28
+msgid "One Click Payment"
+msgstr "Gyorsfizetés regisztrált bankkártyával"
+
+#: ../classes/providers/saferpay.php:50 ../classes/providers/borgun.php:35 ..
+#: classes/providers/fhb.php:37 ../classes/providers/otp.php:37 ..
+#: classes/providers/otpsimplewire.php:37 ../classes/providers/otpay.php:37 ..
+#: classes/providers/unicredit.php:37 ../classes/providers/escalion.php:37 ..
+#: classes/providers/khbszep.php:35 ../classes/providers/barion2.php:37 ..
+#: classes/providers/qpay.php:37 ../classes/providers/otpszep.php:50 ..
+#: classes/providers/otpsimple.php:37 ../classes/providers/otp2.php:55 ..
+#: classes/providers/ipg.php:37 ../classes/providers/sofort.php:35 ..
+#: classes/providers/paypal.php:68 ../classes/providers/sms.php:35 ..
+#: classes/providers/payu2.php:37 ../classes/providers/otpaymp.php:35 ..
+#: classes/providers/psc.php:37 ../classes/providers/borgun2.php:50 ..
+#: classes/providers/cib.php:37 ../classes/providers/khb.php:37 ..
+#: classes/providers/mkbszep.php:54
+msgid "Description"
+msgstr "Leírás"
+
+#: ../classes/providers/saferpay.php:54 ../classes/providers/fhb.php:41 ..
+#: classes/providers/otp.php:41 ../classes/providers/otpay.php:41 ..
+#: classes/providers/unicredit.php:41 ../classes/providers/payu.php:37 ..
+#: classes/providers/barion2.php:41 ../classes/providers/qpay.php:41 ..
+#: classes/providers/otpsimple.php:41 ../classes/providers/otp2.php:59 ..
+#: classes/providers/ipg.php:41 ../classes/providers/payu2.php:41 ..
+#: classes/providers/borgun2.php:54
+msgid "Authorization"
+msgstr "Végrehajtás"
+
+#: ../classes/providers/saferpay.php:57 ../classes/providers/fhb.php:44 ..
+#: classes/providers/otp.php:44 ../classes/providers/otpay.php:44 ..
+#: classes/providers/unicredit.php:44 ../classes/providers/payu.php:40 ..
+#: classes/providers/barion2.php:44 ../classes/providers/qpay.php:44 ..
+#: classes/providers/otpsimple.php:44 ../classes/providers/otp2.php:62 ..
+#: classes/providers/ipg.php:44 ../classes/providers/payu2.php:44 ..
+#: classes/providers/borgun2.php:57
+msgid "Immediate"
+msgstr "Azonnal"
+
+#: ../classes/providers/saferpay.php:58 ../classes/providers/fhb.php:45 ..
+#: classes/providers/otp.php:45 ../classes/providers/otpay.php:45 ..
+#: classes/providers/unicredit.php:45 ../classes/providers/payu.php:41 ..
+#: classes/providers/barion2.php:45 ../classes/providers/qpay.php:45 ..
+#: classes/providers/otpsimple.php:45 ../classes/providers/otp2.php:63 ..
+#: classes/providers/ipg.php:45 ../classes/providers/payu2.php:45 ..
+#: classes/providers/borgun2.php:58
+msgid "Later"
+msgstr "Később"
+
+#: ../classes/providers/saferpay.php:63 ../classes/providers/borgun2.php:63
+msgid "Card registration functions"
+msgstr "Regisztrált bankkártyás fizetési lehetőség"
+
+#: ../classes/providers/saferpay.php:67 ../classes/providers/borgun2.php:67
+msgid "Only card registration"
+msgstr "Csak bankkártya regisztráció engedélyezése"
+
+#: ../classes/providers/saferpay.php:68 ../classes/providers/borgun2.php:68
+msgid "Card registration and One Click Payment"
+msgstr "Bankkártya regisztráció és gyorsfizetés engedélyezése"
+
+#: ../classes/providers/saferpay.php:73
+msgid "Available payment methods"
+msgstr "Választható fizetési módok"
+
+#: ../classes/providers/saferpay.php:76
+msgid "AMEX"
+msgstr "AMEX"
+
+#: ../classes/providers/saferpay.php:77
+msgid "DIRECTDEBIT"
+msgstr "DIRECTDEBIT"
+
+#: ../classes/providers/saferpay.php:78
+msgid "INVOICE"
+msgstr "INVOICE"
+
+#: ../classes/providers/saferpay.php:79
+msgid "BONUS"
+msgstr "BONUS"
+
+#: ../classes/providers/saferpay.php:80
+msgid "DINERS"
+msgstr "DINERS"
+
+#: ../classes/providers/saferpay.php:81
+msgid "EPRZELEWY"
+msgstr "EPRZELEWY"
+
+#: ../classes/providers/saferpay.php:82
+msgid "EPS"
+msgstr "EPS"
+
+#: ../classes/providers/saferpay.php:83
+msgid "GIROPAY"
+msgstr "GIROPAY"
+
+#: ../classes/providers/saferpay.php:84
+msgid "IDEAL"
+msgstr "IDEAL"
+
+#: ../classes/providers/saferpay.php:85
+msgid "JCB"
+msgstr "JCB"
+
+#: ../classes/providers/saferpay.php:86
+msgid "MAESTRO"
+msgstr "MAESTRO"
+
+#: ../classes/providers/saferpay.php:87
+msgid "MASTERCARD"
+msgstr "MASTERCARD"
+
+#: ../classes/providers/saferpay.php:88
+msgid "MYONE"
+msgstr "MYONE"
+
+#: ../classes/providers/saferpay.php:89
+msgid "PAYPAL"
+msgstr "PAYPAL"
+
+#: ../classes/providers/saferpay.php:90
+msgid "POSTCARD"
+msgstr "POSTCARD"
+
+#: ../classes/providers/saferpay.php:91
+msgid "POSTFINANCE"
+msgstr "POSTFINANCE"
+
+#: ../classes/providers/saferpay.php:92
+msgid "SAFERPAYTEST"
+msgstr "SAFERPAYTEST"
+
+#: ../classes/providers/saferpay.php:93
+msgid "SOFORT"
+msgstr "SOFORT"
+
+#: ../classes/providers/saferpay.php:94
+msgid "VISA"
+msgstr "VISA"
+
+#: ../classes/providers/saferpay.php:95
+msgid "VPAY"
+msgstr "VPAY"
+
+#: ../classes/providers/saferpay.php:97 ../classes/providers/saferpay.php:106
+#: .. classes/providers/qpay.php:80
+msgid "The choice is not mandatory"
+msgstr "A választás nem kötelező."
+
+#: ../classes/providers/saferpay.php:101
+msgid "Available wallets"
+msgstr "Választható tárcák"
+
+#: ../classes/providers/saferpay.php:104
+msgid "MASTERPASS"
+msgstr "MASTERPASS"
+
+#: ../classes/providers/khbszep.php:39 ../classes/providers/otpszep.php:66 ..
+#: classes/providers/mkbszep.php:58
+msgid "Available pocket"
+msgstr "Zseb beállítása"
+
+#: ../classes/providers/khbszep.php:42 ../classes/providers/otpszep.php:69 ..
+#: classes/providers/mkbszep.php:61
+msgid "Please, select a pocket"
+msgstr "Kérem, válasszon egy zsebet"
+
+#: ../classes/providers/khbszep.php:43 ../classes/providers/otpszep.php:70 ..
+#: classes/providers/mkbszep.php:62
+msgid "Accommodation"
+msgstr "Szálláshely"
+
+#: ../classes/providers/khbszep.php:44 ../classes/providers/otpszep.php:71 ..
+#: classes/providers/mkbszep.php:63
+msgid "Hospitality"
+msgstr "Vendéglátás"
+
+#: ../classes/providers/khbszep.php:45 ../classes/providers/otpszep.php:72 ..
+#: classes/providers/mkbszep.php:64
+msgid "Leisure"
+msgstr "Szabadidő"
+
+#: ../classes/providers/qpay.php:50
+msgid "Available payment types"
+msgstr "Választható fizetési típusok"
+
+#: ../classes/providers/qpay.php:54
+msgid "Select payment type on Wirecard side"
+msgstr "Fizetési típus kiválasztása a Wirecard oldalán"
+
+#: ../classes/providers/qpay.php:55
+msgid "Bancontact/Mister Cash"
+msgstr "Bancontact/Mister Cash"
+
+#: ../classes/providers/qpay.php:56
+msgid "Credit Card, Maestro SecureCode"
+msgstr "Bankkártya, Maestro SecureCode"
+
+#: ../classes/providers/qpay.php:57
+msgid "Credit Card - Mail Order and Telephone Order"
+msgstr "Bankkártya - email és telefon rendelés"
+
+#: ../classes/providers/qpay.php:58
+msgid "eKonto"
+msgstr "eKonto"
+
+#: ../classes/providers/qpay.php:59
+msgid "ePay.bg"
+msgstr "ePay.bg"
+
+#: ../classes/providers/qpay.php:60
+msgid "eps Online-wire"
+msgstr "eps Online-wire"
+
+#: ../classes/providers/qpay.php:61
+msgid "giropay"
+msgstr "giropay"
+
+#: ../classes/providers/qpay.php:62
+msgid "iDEAL"
+msgstr "iDEAL"
+
+#: ../classes/providers/qpay.php:63
+msgid "moneta.ru"
+msgstr "moneta.ru"
+
+#: ../classes/providers/qpay.php:64
+msgid "mpass"
+msgstr "mpass"
+
+#: ../classes/providers/qpay.php:65
+msgid "Przelewy24"
+msgstr "Przelewy24"
+
+#: ../classes/providers/qpay.php:67
+msgid "paybox"
+msgstr "paybox"
+
+#: ../classes/providers/qpay.php:68
+msgid "POLi"
+msgstr "POLi"
+
+#: ../classes/providers/qpay.php:70
+msgid "@Quick"
+msgstr "@Quick"
+
+#: ../classes/providers/qpay.php:71
+msgid "SEPA Direct Debit"
+msgstr "SEPA Direct Debit"
+
+#: ../classes/providers/qpay.php:72
+msgid "Skrill Direct"
+msgstr "Skrill Direct"
+
+#: ../classes/providers/qpay.php:73
+msgid "Skrill Digital Wallet"
+msgstr "Skrill Digital Wallet"
+
+#: ../classes/providers/qpay.php:74
+msgid "SOFORT Banking"
+msgstr "SOFORT Banking"
+
+#: ../classes/providers/qpay.php:75
+msgid "TatraPay"
+msgstr "TatraPay"
+
+#: ../classes/providers/qpay.php:76
+msgid "Trustly"
+msgstr "Trustly"
+
+#: ../classes/providers/qpay.php:77
+msgid "TrustPay"
+msgstr "TrustPay"
+
+#: ../classes/providers/qpay.php:78
+msgid "My Voucher"
+msgstr "My Voucher"
+
+#: ../classes/providers/otpszep.php:54
+msgid "SZÉP Store name"
+msgstr "OTP SZÉP Kártyához tartozó bolt neve"
+
+#: ../classes/providers/otpszep.php:60
+msgid "SZÉP API key"
+msgstr ""
+"OTP SZÉP Kártyához tartozó \n"
+"API kulcs"
+
+#: ../classes/providers/otp2.php:31 ../classes/providers/mkbszep.php:30
+msgid "Card number"
+msgstr "Kártyaszám"
+
+#: ../classes/providers/otp2.php:32
+msgid "Card expiration (mmyy)"
+msgstr "Kártya lejárati ideje (hhéé)"
+
+#: ../classes/providers/otp2.php:33
+msgid "CVC"
+msgstr "CVC"
+
+#: ../classes/providers/otp2.php:68 ../classes/providers/mkbszep.php:77
+msgid "Encrypt public key"
+msgstr "Publikus kulcs"
+
+#: ../classes/providers/paypal.php:32 ../classes/providers/paypal.php:72
+msgid "Enable recurring payment"
+msgstr "Ismétlődő fizetés engedélyezése"
+
+#: ../classes/providers/paypal.php:35 ../classes/providers/paypal.php:43
+msgid "Billing period"
+msgstr "Számlázási periódus"
+
+#: ../classes/providers/paypal.php:81
+msgid "Available billing periods to recurring payment"
+msgstr "Lehetséges számlázási periódusok az ismétlődő fizetéshez"
+
+#: ../classes/providers/paypal.php:85
+msgid "Day"
+msgstr "napi"
+
+#: ../classes/providers/paypal.php:86
+msgid "Week"
+msgstr "heti"
+
+#: ../classes/providers/paypal.php:87
+msgid "SemiMonth"
+msgstr "fél havi"
+
+#: ../classes/providers/paypal.php:88
+msgid "Month"
+msgstr "havi"
+
+#: ../classes/providers/paypal.php:89
+msgid "Year"
+msgstr "éves"
+
+#: ../classes/providers/paypal.php:91
+msgid ""
+"Select one to default. If you select more customer also can choose from."
+msgstr ""
+"Egy kiválasztása esetén az lesz az alapértelmezett számlázási periódus. Ha "
+"több van kiválasztva, akkor a vásárló is fog tudni választani közülük."
+
+#: ../classes/providers/mkbszep.php:31
+msgid "CVV"
+msgstr "CVV"
+
+#: ../classes/providers/mkbszep.php:68
+msgid "Add card data on Payment Gateway page"
+msgstr "Kártyaadatok megadása a Payment Gateway oldalán"
+
+msgid "Use translation function"
+msgstr "Nyelvi fájl használata"
+
+msgid "Enable to use system translation from .po file"
+msgstr "Kapcsolva a .po fájlból történik a fordítás"
+
+msgid "You find with this tokens/keys: %s, %s"
+msgstr "A forditó szerkesztőben az alábbá nevekkel található meg: %s, %s"
+
+msgid "successful_transaction_notification"
+msgstr ""
+"<b>Sikeres tranzakció.</b><br/>%s: <b>%s</b><br/>Megrendelés azonosító: <b>"
+"%s</b><br/>Dátum: <b>%s</b>"
+
+msgid "canceled_transaction_notification"
+msgstr ""
+"Megszakított tranzakció.<br /><br />Ön megszakította a fizetést, vagy lejárt "
+"a tranzakció maximális ideje!<br /><br />Megrendelés azonosító: <b>%s</b>"
+"<br/>Dátum: <b>%s</b>"
+
+msgid "error_transaction_notification"
+msgstr ""
+"Sikertelen tranzakció.<br /><br />Kérjük, ellenőrizze a tranzakció során "
+"megadott adatok helyességét. Amennyiben minden adatot helyesen adott meg, a "
+"visszautasítás okának kivizsgálása kapcsán kérjük, szíveskedjen kapcsolatba "
+"lépni kártyakibocsátó bankjával.<br /><br/>%s: <b>%s</b><br/>Megrendelés "
+"azonosító: <b>%s</b><br/>Dátum: <b>%s</b>"
+
+msgid "Minimum amount (only HUF)"
+msgstr "Minimális rendelési összeg (HUF)"
+
+msgid "Maximum amount (only HUF)"
+msgstr "Maximális rendelési összeg (HUF)"
+
+msgid "This payment available only in Hungarian forint"
+msgstr "Ez a fizetési megoldás csak Magyar forinttal használható"
+
+msgid "You can also select one or more pocket"
+msgstr "Egy vagy több zseb is kiválasztható"
+
+msgid "Select pocket"
+msgstr "Választott zseb"
+
+msgid "Pocket"
+msgstr "Zseb"
+
+msgid "provider_BBAruhitel_display_name"
+msgstr "MBH Online Áruhitel"
+
+msgid "provider_Borgun2_display_name"
+msgstr "Borgun RPG"
+
+msgid "provider_Borgun2_display_description"
+msgstr ""
+
+msgid "provider_CIB_display_name"
+msgstr "CIB Bank"
+
+msgid "provider_CIB_display_description"
+msgstr ""
+
+msgid "provider_OTP_display_name"
+msgstr "OTP Bank"
+
+msgid "provider_OTP_display_description"
+msgstr ""
+
+msgid "provider_Barion2_display_name"
+msgstr "Barion Smart Gateway"
+
+msgid "provider_Barion2_display_description"
+msgstr ""
+
+msgid "provider_Borgun_display_name"
+msgstr "Borgun SecurePay"
+
+msgid "provider_Borgun_display_description"
+msgstr ""
+
+msgid "provider_Escalion_display_name"
+msgstr "Escalion"
+
+msgid "provider_Escalion_display_description"
+msgstr ""
+
+msgid "provider_FHB_display_name"
+msgstr "FHB Bank"
+
+msgid "provider_FHB_display_description"
+msgstr ""
+
+msgid "provider_GP_display_name"
+msgstr "Global Payments"
+
+msgid "provider_GP_display_description"
+msgstr ""
+
+msgid "provider_IPG_display_name"
+msgstr "Intelligent Payments"
+
+msgid "provider_IPG_display_description"
+msgstr ""
+
+msgid "provider_KHB_display_name"
+msgstr "K&H Bank"
+
+msgid "provider_KHB_display_description"
+msgstr ""
+
+msgid "provider_KHBSZEP_display_name"
+msgstr "K&H SZÉP Kártya"
+
+msgid "provider_KHBSZEP_display_description"
+msgstr ""
+
+msgid "provider_MKBSZEP_display_name"
+msgstr "MBH SZÉP Kártya"
+
+msgid "provider_MKBSZEP_display_description"
+msgstr ""
+
+msgid "provider_OTP2_display_name"
+msgstr "OTP Bank (kétszereplős)"
+
+msgid "provider_OTP2_display_description"
+msgstr ""
+
+msgid "provider_OTPMultipont_display_name"
+msgstr "OTP Multipont"
+
+msgid "provider_OTPMultipont_display_description"
+msgstr ""
+
+msgid "provider_OTPSZEP_display_name"
+msgstr "OTP SZÉP Kártya"
+
+msgid "provider_OTPSZEP_display_description"
+msgstr ""
+
+msgid "provider_OTPay_display_name"
+msgstr "OTPay"
+
+msgid "provider_OTPay_display_description"
+msgstr ""
+
+msgid "provider_OTPayMP_display_name"
+msgstr "OTPay MasterPass"
+
+msgid "provider_OTPayMP_display_description"
+msgstr ""
+
+msgid "provider_PayPal_display_name"
+msgstr "PayPal (Classic)"
+
+msgid "provider_PSC_display_name"
+msgstr "paysafecard"
+
+msgid "provider_PSC_display_description"
+msgstr ""
+
+msgid "provider_PayU2_display_name"
+msgstr "PayU (Classic)"
+
+msgid "provider_PayU2_display_description"
+msgstr ""
+
+msgid "provider_Saferpay_display_name"
+msgstr "Worldline"
+
+msgid "provider_Saferpay_display_description"
+msgstr ""
+
+msgid "provider_OTPSimple_display_name"
+msgstr "SimplePay"
+
+msgid "provider_OTPSimple_display_description"
+msgstr ""
+
+msgid "provider_OTPSimpleWire_display_name"
+msgstr "SimplePay Wire"
+
+msgid "provider_OTPSimpleWire_display_description"
+msgstr ""
+
+msgid "provider_SMS_display_name"
+msgstr "SMS"
+
+msgid "provider_SMS_display_description"
+msgstr ""
+
+msgid "provider_Sofort_display_name"
+msgstr "Sofort Banking"
+
+msgid "provider_Sofort_display_description"
+msgstr ""
+
+msgid "provider_UniCredit_display_name"
+msgstr "UniCredit Bank"
+
+msgid "provider_UniCredit_display_description"
+msgstr ""
+
+msgid "provider_Virpay_display_name"
+msgstr "VirPAY"
+
+msgid "provider_Virpay_display_description"
+msgstr ""
+
+msgid "provider_QPAY_display_name"
+msgstr "Wirecard QPAY"
+
+msgid "provider_QPAY_display_description"
+msgstr ""
+
+msgid "Pay with"
+msgstr "Fizetés"
+
+msgid "New card"
+msgstr "Új bankártyával"
+
+msgid "Card registration"
+msgstr "Bankártya regisztrációval"
+
+msgid "Pay with card registration"
+msgstr "Bankkártya regisztrálásának engedélyezése"
+
+msgid "Invalid payment token."
+msgstr "Érvénytelen mentett kártya"
+
+msgid "Payment token deleted."
+msgstr "Sikeres törlés"
+
+msgid "Error at token delete"
+msgstr "Hiba a mentett kártya törlése során"
+
+msgid "Card"
+msgstr "Bankkártya"
+
+msgid "provider_BBAruhitel_display_description"
+msgstr ""
+
+msgid "provider_OTPAruhitel_display_name"
+msgstr "OTP Bank Áruhitel"
+
+msgid "provider_OTPAruhitel_display_description"
+msgstr ""
+
+msgid "provider_PayPalRest_display_name"
+msgstr "PayPal (REST)"
+
+msgid "provider_PayPalRest_display_description"
+msgstr ""
+
+msgid "provider_PayURest_display_name"
+msgstr "PayU (REST)"
+
+msgid "provider_PayURest_display_description"
+msgstr ""
+
+msgid "provider_Wirecard_display_name"
+msgstr "Wirecard"
+
+msgid "provider_Wirecard_display_description"
+msgstr ""
+
+msgid "OTP Bank trade loan"
+msgstr "OTP Bank Áruhitel"
+
+msgid "PayPal (Rest)"
+msgstr "PayPal (REST)"
+
+msgid "PayU (Rest)"
+msgstr "PayU (REST)"
+
+msgid "Wirecard"
+msgstr "Wirecard"
+
+msgid "pending_transaction_notification"
+msgstr ""
+"Tájékoztatjuk, hogy a tranzakció az alábbi adatokkal elindult, a feldolgozás "
+"folyamatban van. Email-ben értesítjük, amint a tranzakció sikeres lesz.<br/>"
+"<br/>%s: <b>%s</b><br/>Megrendelés azonosító: <b>%s</b><br/>Dátum: <b>%s</b>"
+
+msgid "Food voucher"
+msgstr "Étel utalvány"
+
+msgid "Hot meals voucher"
+msgstr "Meleg étkezési utalvány"
+
+msgid "Back-to-school voucher"
+msgstr "Iskolakezdési utalvány"
+
+msgid "Culture voucher"
+msgstr "Kultúra utalvány"
+
+msgid "Gift voucher"
+msgstr "Ajándék utalvány"
+
+msgid "Sport voucher"
+msgstr "Sport utalvány"
+
+msgid "Wallet"
+msgstr "Tárca"
+
+msgid "provider_transaction_id_message_cib"
+msgstr "Tranzakció azonosító (TRID)"
+
+msgid "provider_transaction_id_message_default"
+msgstr "%s referenciaszám"
